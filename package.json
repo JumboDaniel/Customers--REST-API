@@ -1,0 +1,18 @@
+{
+  "name": "rest",
+  "version": "1.0.0",
+  "description": "SImple REST API",
+  "main": "script.js",
+  "scripts": {
+    "start": "node ./script.js",
+    "dev": "nodemon ./script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jumbo Daniel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^13.1.0",
+    "nodemon": "^2.0.7"
+  }
+}
